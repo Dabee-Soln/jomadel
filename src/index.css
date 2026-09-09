@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.flip-card {
+  perspective: 1000px;
+  height: 250px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  backface-visibility: hidden; /* This is important! */
+  box-sizing: border-box;
+}
+
+.flip-card-back {
+  background-color: #e0f2f7;
+  transform: rotateY(180deg);
+}
+
+.pkg-bg{
+  background: url('./assets//pkgBg.jpg');
+}

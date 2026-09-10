@@ -4,8 +4,9 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import AboutPage from "./pages/AboutPage";
 import ProductsPage from "./pages/ProductsPage";
-import ProductDetails from "./pages/productDetails";
+import ProductDetails from "./pages/ProductDetails";
 import CompensationPlan from "./pages/CompensationPlan";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/products" element={<ProductsPage />} />
         <Route path="/products/:id" element={<ProductDetails />} />
         <Route path="/compensation" element={<CompensationPlan />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </>

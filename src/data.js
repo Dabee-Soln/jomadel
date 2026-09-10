@@ -38,24 +38,23 @@ import libidoHerbalCapsule from "./assets/products/libidoHerbalCapsule.jpeg";
 export const slides = [
   {
     image: slide1,
-    title: "Natural Wellness",
-    description: "Discover the power of nature for a healthier you.",
+    title: "Transforming Lives Through Health and Wealth",
+    description: "A wellness and entrepreneurship ecosystem built around healthier living, opportunity and lasting impact.",
     button: "Get Started",
     link: "http://www.jomadel.com/default.aspx",
   },
   {
     image: slide2,
-    title: "Herbal Solutions",
-    description: "Experience the benefits of our premium herbal products.",
-    button: "Explore Our Products",
-    link: "/products",
+    title: "Wellness Meets Opportunity",
+    description: "Build healthier habits while exploring an empowering path to entrepreneurship and sustainable income.",
+    button: "Learn About Jomadel",
+    link: "/about",
   },
   {
     image: slide3,
-    title: "Healthy Living",
-    description:
-      "Embrace a natural lifestyle with our carefully crafted products.",
-    button: "Checkout Our Reward System",
+    title: "Build Health. Create Wealth. Leave a Legacy.",
+    description: "Explore Jomadel's business packages, income streams, awards and recognition structure.",
+    button: "Explore Compensation Plan",
     link: "/compensation",
   },
 ];
@@ -313,114 +312,63 @@ export const benefits = [
 
 export const values = [
   {
-    icon: FaCrown,
-    className: "text-2xl text-green-600 mr-2",
-    title: "Faith-Driven Leadership:",
-    description: " Guided by strong spiritual principles",
+    icon: FaBalanceScale,
+    className: "text-3xl text-green-600",
+    title: "Integrity",
+    description: "Trust is our foundation; we do what is right transparently.",
   },
   {
-    icon: FaHandshake,
-    className: "text-2xl text-green-600 mr-2",
-    title: "Unwavering Integrity:",
-    description: "Maintaining the highest ethical standards",
+    icon: FaCrown,
+    className: "text-3xl text-green-600",
+    title: "Leadership",
+    description: "We lead by example, set standards and guide the path forward.",
+  },
+  {
+    icon: FaChartLine,
+    className: "text-3xl text-green-600",
+    title: "Innovation",
+    description: "We embrace change and pioneer new solutions that empower success.",
   },
   {
     icon: FaAward,
-    className: "text-2xl text-green-600 mr-2",
-    title: "Service Excellence:",
-    description: "Putting customer wellness first.",
+    className: "text-3xl text-green-600",
+    title: "Quality",
+    description: "Excellence defines how we approach our products and services.",
   },
   {
-    icon: FaLeaf,
-    className: "text-2xl text-green-600 mr-2",
-    title: "Professional Development:",
-    description: "Continuous learning and growth",
-  },
-  {
-    icon: FaBalanceScale,
-    className: "text-2xl text-green-600 mr-2",
-    title: "Quality Assurance:",
-    description: "Rigorous standards in every product.",
-  },
-  {
-    icon: FaHandsHelping,
-    className: "text-2xl text-green-600 mr-2",
-    title: "Sustainable Impact:",
-    description: "Creating lasting value for families and communities",
+    icon: FaUsers,
+    className: "text-3xl text-green-600",
+    title: "Culture",
+    description: "Our diverse, collaborative culture helps us achieve extraordinary outcomes together.",
   },
 ];
 
 export const objectives = [];
 
 export const packages = [
-  { name: "Basic", amount: "N13,000", pv: "1 Small Awake Colon Cleanser" },
-  {
-    name: "Silver",
-    amount: "N29,000",
-    pv: "1 Big & 1 Small Awake Colon Cleanser",
-  },
-  { name: "Gold", amount: "N81,000", pv: "" },
-  { name: "PLATINUM", amount: "N185,000", pv: "" },
-  { name: "DIAMOND", amount: "N419,000", pv: "" },
-  { name: "VIP", amount: "N653,000", pv: "" },
+  { name: "Basic", amount: "₦13,000", pv: "7 PV" },
+  { name: "Silver", amount: "₦29,000", pv: "20 PV" },
+  { name: "Gold", amount: "₦81,000", pv: "60 PV" },
+  { name: "Platinum", amount: "₦185,000", pv: "140 PV" },
+  { name: "Diamond", amount: "₦419,000", pv: "320 PV" },
+  { name: "VIP", amount: "₦653,000", pv: "500 PV" },
 ];
 
 export const waysToEarn = [
-  {
-    icon: FaShoppingCart,
-    title: "Retail Profit",
-    description:
-      "All products are to be sold with 20% profit mark up. This implies that distributors can specialize in selling products and can still make huge amount of money. All our products are essential for treatment and management of various health challenges.",
-  },
-  {
-    icon: FaUserPlus,
-    title: "Referral Bonus",
-    description: "Earn bonuses for referring new members to the company.",
-  },
-  {
-    icon: FaUsers,
-    title: "Pairing Bonus",
-    description:
-      "Earn bonuses when you have balanced growth in your downline teams.",
-  },
-  {
-    icon: FaChartLine,
-    title: "Upgrade Bonus",
-    description:
-      "Upgrade payment involves payment of the difference between distributor’s current package and desired package. The company pays distributors 28% of upgrade bonus regardless of entry package level .",
-  },
-  {
-    icon: FaCoins,
-    title: "Repurchase/Unilevel Bonus",
-    description:
-      "Earn from repurchases made by members in your downline. You can earn repurchase/unilevel bonus up to 14th generation depending on your package.",
-  },
-  {
-    icon: FaTrophy,
-    title: "Ranking, Awards and Incentives",
-    description: "Achieve higher ranks and receive awards and incentives.",
-  },
-  {
-    icon: FaChartLine,
-    title: "Leadership Bonus",
-    description:
-      "The company is open to support leaders by rewarding them with bonuses based on monthly quarterly or annual performances. These include training and travel support and special cash rewards.",
-  },
-  {
-    icon: FaGlobe,
-    title: "Stockist Bonus",
-    description: "Earn bonuses for managing a stockist center.",
-  },
-  {
-    icon: FaChartLine,
-    title: "Global Share Bonus",
-    description:
-      "A GLOBAL AMBASSADOR Who has accumulated over 15,000,000PV shall be entitled to a bonus of N100,000,000 and subsequent monthly share to infinity.",
-  },
-  {
-    icon: FaGraduationCap,
-    title: "Educational Development",
-    description:
-      "HWI is committed to a personal development of our distributors and we run weekly programme for all members. In addition any member with 10,000 PV on lesser leg will receive scholarship from Maximum Impact School of Management and Technology for Six months certificate course in ENTREPRENEURSHIP DEVELOPMENT.",
-  },
+  { icon: FaShoppingCart, title: "Retail Profit", description: "Earn up to 20% retail profit by purchasing at wholesale rates and selling at retail prices." },
+  { icon: FaUserPlus, title: "Direct Referral Bonus", description: "Earn 28% based on PV when you directly refer a new member." },
+  { icon: FaUsers, title: "Indirect Referral Bonus", description: "Earn across qualifying generations, from the 2nd through the 8th generation, based on package eligibility." },
+  { icon: FaChartLine, title: "Direct Upgrade Bonus", description: "Earn 28% when directly referred partners upgrade their packages to higher tiers." },
+  { icon: FaChartLine, title: "Indirect Upgrade Bonus", description: "Earn up to 10% on qualifying package upgrades in your success line through the 8th generation." },
+  { icon: FaUsers, title: "Binary Pairing Bonus", description: "Earn from matched PV on your left and right binary legs at package-based rates from 8% to 17%." },
+  { icon: FaCoins, title: "Personal Repurchase Bonus", description: "Earn up to 25% PV on qualifying personal product repurchases." },
+  { icon: FaCoins, title: "Unilevel Bonus", description: "Earn monthly commissions from team repurchases, up to 30% and as deep as 15 generations for qualifying packages." },
+  { icon: FaTrophy, title: "Rank Awards", description: "Progress through qualifying ranks and unlock cash, product, technology, travel, vehicle and property rewards." },
+  { icon: FaAward, title: "Achievers’ Award Matching", description: "Qualifying members participate in matching rewards connected to award achievements within their success lines." },
+  { icon: FaBusinessTime, title: "Stockist / Agency", description: "Operate at State, Area or Community Stockist level and earn qualifying PV from centre turnover." },
+  { icon: FaChartLine, title: "Stockist PV", description: "Stockist referrals contribute specified Point Value toward rank qualification." },
+  { icon: FaShoppingCart, title: "Stockist Gift", description: "Qualifying State, Area and Community Stockists receive product-value gifts." },
+  { icon: FaUserPlus, title: "Stockist Referral", description: "Earn cash referral bonuses for qualifying State, Area and Community Stockist referrals." },
+  { icon: FaGlobe, title: "Global Profit Sharing", description: "Qualified Ambassador-rank leaders participate in a pool funded with 2% of company profit." },
+  { icon: FaHandsHelping, title: "Community Support Funds", description: "Jomadel allocates 2% of company profits to a fund intended to give back to society." },
 ];
